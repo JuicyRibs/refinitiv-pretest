@@ -1,2 +1,2 @@
 ### Run:
-### `node index.js [argument]`
+### `node ./index.js [argument]`
