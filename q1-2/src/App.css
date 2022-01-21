@@ -1,0 +1,25 @@
+.columns {
+  display: flex;
+}
+
+.columns div {
+  border: 1px solid black;
+}
+
+.columns div:first-child {
+  width: 200px;
+}
+
+.columns div:nth-child(2) {
+  min-width: 100px;
+  flex-grow: 1;
+}
+
+.columns div:last-child {
+  width: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .columns {
+    overflow-x: scroll;
+  }
+}
